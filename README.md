@@ -1,2 +1,7 @@
-# stable-random-number
-A random number generator that is stable across Python 2.x and 3.x
+# Stable random number generator
+
+Unfortunately the pseudo random number generators in Python do not produce the same 
+numbers sequence on Python 2.x versus 3.x. This is sometimes problematic. This code
+provides a stable random number generator that independent of the Python version.
+
+The code is based on https://en.wikipedia.org/wiki/Mersenne_Twister.
